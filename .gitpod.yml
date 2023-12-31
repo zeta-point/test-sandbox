@@ -1,1 +1,5 @@
 image: nomocode/sandbox
+
+tasks:
+    - name: Install ngc cli
+      before: npm install --location=global @nomocode/ngc
